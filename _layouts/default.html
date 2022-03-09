@@ -1,12 +1,14 @@
 ---
 layout: base
 ---
-<header>
+<header class="b1-bg">
   {% include header.html -%}
 </header>
-<section role="main">
-  {{ content }}
-</section>
+<main id="main" role="main">
+  <div class="holder">
+    {{ content }}
+  </div>
+</main>
 <footer>
   {% include footer.html -%}
 </footer>

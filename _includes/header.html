@@ -1,1 +1,10 @@
-<h1>{{ site.title }}</h1>
+<div class="glory">
+  <div class="glory-logo holder">
+    <div class="holder">
+      <a href="{{ / | relative_url }}">
+        <img alt="Open Innovations" src="https://open-innovations.org/resources/images/logos/oi-square-14.svg">
+        {% if site.title -%}<h1>{{ site.title }}</h1>{% endif -%}
+      </a>
+    </div>
+  </div>
+</div>
